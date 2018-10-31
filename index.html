@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> SearchList Videos </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div id="container">
+<div class="header">
+    <h1>Youtube SearchList Videos</h1>
+</div>
+<br>
+<section>
+    <form id="search-form" name="search-form" onsubmit="return search()">
+        <div class="fieldcontaner">
+        <input type="search" id="query" class="search-field" placeholder="search youtube....">
+        <button type="submit" name="search-btn"
+        id="search-btn" value="">Go</button>
+        </div>
+    </form>
+    <ul id="results"></ul>
+    <div id="buttons"></div>
+</section>
+<footer></footer>
+</div>
+</body>
+<script type="text/javascript" src="js/app.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
+</html>

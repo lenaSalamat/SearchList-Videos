@@ -1,0 +1,117 @@
+body {
+	font-size: 20px;
+}
+
+.header {
+	width: 50%;
+	margin: 40px auto 0px;
+	color: white;
+	background: #483D8B;
+	text-align: center;
+	border: 1px solid gray;
+	border-radius: 8px 8px 0px 0px;
+}
+
+#search-form {
+	width: 50%;
+	margin: 0px auto;
+	/*border: 1px solid gray;*/
+}
+
+#search-form:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+li {
+	list-style-type: none;
+	line-height: 1.4em;
+}
+
+li:hover {
+	cursor: pointer;
+	color: #483D8B;
+}
+
+ul {
+	margin-left: -10px;
+}
+
+h3 {
+	color: #483D8B;
+}
+
+#results {
+	/*width: 50%;*/
+	height: 25px;
+	margin: 40px auto 0px;
+	color: #000;
+	background: #fff;
+}
+
+#search-btn {
+	height: 18px;
+	width:75px;
+	background: #483D8B;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-size:15px;
+}
+
+#search-btn:hover{
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+}
+
+#results li{
+	padding: 10px 0;
+	border-bottom: 1px #ccc dotted;
+	list-style: none;
+	overflow: auto;
+}
+
+.list-left {
+	float: left;
+	width: 20%;
+}
+
+.list-left img{
+	width: 100%;
+	padding: 3px;
+	border: solid #ccc 1px;
+}
+
+.list-right {
+	float: right;
+	width: 78%;
+}
+
+.cTitle {
+	color: #dd2826;
+}
+
+.button-container {
+	margin-top: 25px;
+}
+
+.paging-button {
+	background: #483D8B;
+	padding: 8px 13px;
+	border: #ccc 1px solid;
+	border-radius: 5px;
+	color:white;
+	margin: 20px;
+	cursor: pointer;
+}
+
+#next-button {
+	float: left;
+	margin-top: 1125px;
+}
+
+#prev-button {
+	float: left;
+	margin-top: 1125px;
+}
